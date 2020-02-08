@@ -1,0 +1,83 @@
+@media (max-width:1200px) {
+.container{ width:96%; margin:0 auto; padding:0;}
+.footer_detail h3{ font-size:16px;}
+}
+
+/************ Main **************/
+@media (max-width: 960px) {
+.nav_sec .navbar-default .navbar-nav > li > a{ padding:10px 15px; margin:2px; font-size:14px;}
+.welcome_sec h2{ font-size:32px;}
+.welcome_sec p{ line-height:22px;}
+.footer_detail ul.footer_link li a, .info_block{ font-size:13px;}
+
+.launch_apps_sec{ padding:100px 0;}
+.launch_apps_sec h2, .join_program h2, .community_sec h2, .worked_sec h2{ font-size:35px;}
+.join_block p{ font-size:18px;}
+.community_sec p{ font-size:14px; line-height:22px;}
+.worked_block h3{ font-size:16px;}
+.worked_block p{ font-size:14px; line-height:22px;}
+.worked_block{ min-height:480px;}
+
+.terms_sec h2{ font-size:32px;}
+.signup_sec h2{ font-size:32px;}
+.add_prod_form h2, .file_upload_sec h2{ font-size:32px;}
+ul.global_form li.detail_1{ width:100%;}
+ul.global_form li.detail_2{ width:100%; float:right;}
+
+ul.global_form li .sign_radio label{ min-width:100px;}
+
+.table-bordered > thead > tr > th{ font-size:16px; padding:10px;}
+
+
+
+/************** 1-7-2015 ******************/
+.contact_sec h2{ font-size:32px;}
+
+}
+@media (max-width: 767px) {
+html { -webkit-text-size-adjust:none;}
+.container{ width:93%; margin:0 auto; padding:0;}
+.navbar-default .navbar-toggle{ border:none; margin:15px 0 0 0;}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{ background:none;}
+.navbar-default .navbar-toggle .icon-bar{ width:33px; height:3px; background:#46b749;}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{ border:none; -webkit-box-shadow:0 0 0 rgba(0, 0, 0, 0.2); box-shadow:0 0 0 rgba(0, 0, 0, 0.2);}
+.nav_sec .navbar-default .navbar-nav > li > a{ padding:10px 15px; margin:5px 3px 0 3px; font-size:15px; border-radius:5px;}
+.nav_sec .navbar-default .navbar-nav > li > a:hover, .nav_sec .navbar-default .navbar-nav > li > a:focus{ background:#46b749; color:#fff;}
+.nav_sec .navbar-default .navbar-nav > .active > a, .nav_sec .navbar-default .navbar-nav > .active > a:hover, .nav_sec .navbar-default .navbar-nav > .active > a:focus{ background:#46b749; color:#fff;}
+.nav_sec .navbar-default .navbar-nav > .open > a, .nav_sec .navbar-default .navbar-nav > .open > a:hover, .nav_sec .navbar-default .navbar-nav > .open > a:focus{ background:#46b749; color:#fff;}
+.welcome_sec figure{ text-align:center;}
+
+#header.affix{ position:relative;}
+
+.launch_apps_sec{ padding:80px 0;}
+.launch_apps_sec h2, .join_program h2, .community_sec h2, .worked_sec h2{ font-size:30px;}
+.launch_apps_sec p{ font-size:22px;}
+.join_program, .worked_sec{ padding-top:30px;}
+.join_program h2, .worked_sec h2{ margin-bottom:30px;}
+
+
+.table-bordered > thead > tr > th{ font-size:14px;}
+
+
+}
+
+/************ iphone **************/
+@media (max-width:600px) {
+html { -webkit-text-size-adjust:none;}
+.container{ width:91%; margin:0 auto; padding:0;}
+.copyright .payment{ width:100%; text-align:center;}
+.copyright .right{ width:100%; text-align:center; margin-top:15px; font-size:13px;}
+
+.launch_apps_sec .register_btn{ padding:13px 40px; font-size:22px;}
+.listing_sec{ padding:30px 0 20px 0;}
+
+
+.user_info_btn .dropdown-menu{ min-width:160px;}
+.user_info_btn .dropdown-submenu>.dropdown-menu{max-width:160px;}
+
+.inner_top_part{ padding:6px 0 0 0;}
+.inner_top_part ul li a{ padding:5px 13px;}
+.user_info_btn .btn-default{ padding:3px 13px;}
+
+}

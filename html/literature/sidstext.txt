@@ -1,0 +1,5 @@
+edm cnc wire cut
+edm spark erosion
+edm drill
+press component
+Sheet metal components
